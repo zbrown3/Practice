@@ -1,0 +1,12 @@
+ls - looks at directory you are in
+pwd - shows the working directory
+cd - changes directory to the directory specified 
+use cd folder/subfolder to go down two directories
+use cd .. to move up one directory 
+use cd ../subfolder2 to go up one level then down to a different subfolder
+mkdir - makes a new directory with specified name: mkdir folder
+use mkdir folder/subfolder to make sub directory within specifed folder
+touch command makes new file within working directory: touch filename.filetype
+use touch directory/filename.filetype to create file in specified subfolder
+clear - clears the terminal of previous commands and cleans up the view.
+tab button - autocompletes a directory or file name after typing first couple characters

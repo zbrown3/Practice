@@ -1,0 +1,19 @@
+# Checkpoint 1 & 2
+addresses = ["221 B Baker St.", "42 Wallaby Way", "12 Grimmauld Place", "742 Evergreen Terrace", "1600 Pennsylvania Ave", "10 Downing St."]
+
+
+# Checkpoint 3
+names = ["Ron", "Hermione", "Harry", "Albus", "Sirius"]
+names.sort()
+
+# Checkpoint 4 & 5
+cities = ["London", "Paris", "Rome", "Los Angeles", "New York"]
+sorted_cities = cities.sort(reverse=True)
+
+addresses.sort()
+print(addresses)
+print(sorted_cities)
+print(cities)
+
+#list_name.sort() - sorts list in ascending order numerically or alphabetically
+#list_name.sort(reverse=True) - sorts list in descending order

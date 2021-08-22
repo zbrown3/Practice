@@ -1,0 +1,10 @@
+git init - initializes git project.
+Git has three areas:
+A Working Directory: where you’ll be doing all the work: creating, editing, deleting and organizing files
+A Staging Area: where you’ll list changes you make to the working directory
+A Repository: where Git permanently stores those changes as different versions of the project
+git status - used to check status of a project.  Files in red are untracked. Files in green are tracked.
+git add <filename> - used to add filename to the staging area.
+git diff <filename> - used to check differences between working directory and staging area. Changes to the file are marked in green.
+git commit -m "<message>" - used to permanently store changes from the staging area into the repository
+git log - is used to view earlier versions of a project
