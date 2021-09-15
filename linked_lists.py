@@ -51,12 +51,5 @@ class LinkedList:
         else:
           current_node = next_node
 
-node_list = LinkedList(3)
-node_list.insert_beginning(70)
-node_list.insert_beginning(5675)
-node_list.insert_beginning(90)
-node_list.insert_beginning(403)
-node_list.insert_beginning(3)
-node_list.insert_beginning(90)
-print(node_list.stringify_list())
+
 
