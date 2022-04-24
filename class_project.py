@@ -16,7 +16,7 @@ class Menu:
             start_time = str(self.start_time) + "am"
         if self.end_time < 12 and self.end_time < 12:
             end_time = str(self.end_time) + "am"
-        return "{} menu is available from {} to {}".format(self.name, start_time, end_time)
+        return f"{self.name} menu is available from {start_time} to {end_time}"
 
     def calculate_bill(self, purchased_items):
         items_total = 0

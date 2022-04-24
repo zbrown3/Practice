@@ -21,6 +21,7 @@ class Grade:
   
   def is_passing(self,score):
     if score > 65:
-      return "{} has a passing score.".format(self)
+      return f"{self} has a passing score."
 
 pieter.add_grade(Grade(100))
+print()
