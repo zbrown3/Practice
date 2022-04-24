@@ -1,0 +1,4 @@
+python -m venv [directory]
+source myvenv/bin/activate - activates environment
+install packages AFTER activating environment
+use 'deactivate' to leave environment
